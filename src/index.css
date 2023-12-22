@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Clash Display', 'Montserrat';
+    src: url(./fonts/ClashDisplay-Bold.ttf);
+    src: url(./fonts/ClashDisplay-Regular.ttf);
+    src: url(./fonts/Montserrat-Bold.ttf);
+    src: url(./fonts/Montserrat-Regular.ttf);
+    src: url(./fonts/UnicaOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

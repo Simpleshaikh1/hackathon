@@ -1,0 +1,48 @@
+.banner-left {
+    background: url(../../assets/Purple-Lens-Flare-PNG.svg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-flare {
+    background: url(../../assets/Purple-Lens-Flare-PNG.svg), #D434FE;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-banner-left {
+    background: url(../../assets/flare-left.svg), #D434FE;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-left-blur {
+    background: url(../../assets/Purple-Lens-Flare-PNG.svg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lock-bg {
+    background: url(../../assets/lock-bg.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.border-linear {
+    border-width: 3px;
+    border-image: linear-gradient(to bottom, #D434FE, #903AFF);
+    border-image-slice: 1;
+    border-style: solid;
+}
+
+.active {
+    background: linear-gradient(to right, #D434FE, #903AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
